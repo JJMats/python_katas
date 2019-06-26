@@ -46,8 +46,8 @@ Asian City - Country"""
 print(1)
 usa_cities = locations['North America']['USA']
 usa_cities.sort()
-for i in range(len(usa_cities)):
-    print(usa_cities[i])
+for city in usa_cities:
+    print(city)
 
 # Question 2
 print(2)
@@ -55,5 +55,5 @@ asia_locations = locations['Asia']
 for country in asia_locations:
     asia_cities = asia_locations[country]
     asia_cities.sort()
-    for i in range(len(asia_cities)):
-        print(asia_cities[i], '-', country)
+    for city in asia_cities:
+        print(city, '-', country)
