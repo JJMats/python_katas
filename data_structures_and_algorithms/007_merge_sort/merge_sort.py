@@ -8,6 +8,7 @@ back together in sorted order.
 Time Complexity: O(n log n)
 Auxiliary Space: O(n)
 '''
+
 def merge_sort(array, left_idx, right_idx):
     if len(array) > 1:
         mid_idx = len(array) // 2
